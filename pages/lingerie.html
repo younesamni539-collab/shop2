@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ملابس داخلية | Fatishop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #d81b60;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex; /* لعرض المنتجات بجانب بعضها */
+            flex-wrap: wrap; /* لتنزيل المنتجات الزائدة لسطر جديد */
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .product-item {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 15px;
+            width: 220px; /* عرض كل منتج */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .product-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .product-item h3 {
+            margin: 10px 0;
+            color: #d81b60;
+        }
+        
+        .product-item p {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .whatsapp-button {
+            display: block;
+            padding: 10px;
+            background-color: #25D366; /* لون واتساب الأخضر */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fatishop</h1>
+    </header>
+
+    <div class="container">
+        <h2>منتجات الملابس الداخلية</h2>
+        <a href="index.html" class="back-button">العودة إلى الصفحة الرئيسية</a>
+
+        <div class="product-item">
+            <img src="https://via.placeholder.com/200x200?text=منتج+1" alt="ملابس داخلية نسائية">
+            <h3>طقم أنيق</h3>
+            <p>الثمن: 50$</p>
+            <a href="https://wa.me/966555555555?text=أرغب%20في%20شراء%20الطقم%20الأنيق%20بسعر%2050%24" class="whatsapp-button">تواصل عبر الواتساب</a>
+        </div>
+
+        <div class="product-item">
+            <img src="https://via.placeholder.com/200x200?text=منتج+2" alt="ملابس داخلية نسائية">
+            <h3>لباس حريري</h3>
+            <p>الثمن: 75$</p>
+            <a href="https://wa.me/966555555555?text=أرغب%20في%20شراء%20اللباس%20الحريري%20بسعر%2075%24" class="whatsapp-button">تواصل عبر الواتساب</a>
+        </div>
+
+        <div class="product-item">
+            <img src="https://via.placeholder.com/200x200?text=منتج+3" alt="ملابس داخلية نسائية">
+            <h3>قطعة جذابة</h3>
+            <p>الثمن: 40$</p>
+            <a href="https://wa.me/966555555555?text=أرغب%20في%20شراء%20القطعة%20الجذابة%20بسعر%2040%24" class="whatsapp-button">تواصل عبر الواتساب</a>
+        </div>
+
+        <div class="product-item">
+            <img src="https://via.placeholder.com/200x200?text=منتج+4" alt="ملابس داخلية نسائية">
+            <h3>تصميم عصري</h3>
+            <p>الثمن: 65$</p>
+            <a href="https://wa.me/966555555555?text=أرغب%20في%20شراء%20التصميم%20العصري%20بسعر%2065%24" class="whatsapp-button">تواصل عبر الواتساب</a>
+        </div>
+    </div>
+
+</body>
+</html>
